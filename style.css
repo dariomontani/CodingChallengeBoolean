@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* sfondo nero opaco */
+.background-black{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  border-radius: 10px 10px 10px 10px;
+  margin: auto;
+  padding: 75px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* logo e titolo */
+header{
+  text-align: center;
+}
+
+.logo-lim{
+  width: 200px;
+}
+
+h1{
+  font-size: 25px;
+  color: #00dd00;
+}
+
+/* button */
+nav{
+  background-color: #00dd00;
+  padding: 5px;
+  text-align: center;
+}
+
+/* 3 sezioni nomi monopattino */
+main{
+  color: white;
+}
+
+section{
+  margin-top: 20px;
+}
+
+h3{
+  display: inline-block;
+}
+
+.barra-ricarica-arancione, .barra-ricarica-verde, .barra-ricarica-rossa{
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.barra-ricarica-arancione{
+  background-color: #f5b453;
+  width: 300px;
+}
+
+.barra-ricarica-verde{
+  background-color: #1ec31e;
+  width: 500px;
+}
+
+.barra-ricarica-rossa{
+  background-color: #be4141;
+  width: 150px;
+}
